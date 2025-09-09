@@ -18,5 +18,31 @@ html {
 body {
     font-family: "Libertinus Serif", "Source Sans 3", sans-serif;
     background-color: rgba(211, 211, 211, 0.521);
+    font-size: 25px;
+    padding: 5px 35px;
+    color: #12171f;
+}
+
+/* Top Links */ 
+
+.top-links {
+    
+}
+
+.top-links .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-links .logo {
+
+}
+
+.top-links .pages {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 10px;
+    gap: 30px;
     font-size: 20px;
 }
