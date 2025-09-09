@@ -1,0 +1,22 @@
+/* Reset */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    font-family: "Libertinus Serif", "Source Sans 3", sans-serif;
+    background-color: rgba(211, 211, 211, 0.521);
+    font-size: 20px;
+}
