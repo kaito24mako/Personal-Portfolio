@@ -55,9 +55,6 @@ a {
 /* Header */ 
 
 .header { 
-}
-
-.header .container {
     max-width: 1000px;
     margin: 50px auto;
 }
@@ -93,19 +90,19 @@ a {
 .header .container-two {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;  /* stops .button stretching */
-    height: 300px;
+    gap: 15px;
 }
 
 .header .title {
     font-size: 70px;
     font-weight: bold;
-    width: 700px;
+    width: auto;
 }
 
 .header .description {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .header .button {
