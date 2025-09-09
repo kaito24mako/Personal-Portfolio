@@ -18,7 +18,7 @@ html {
 body {
     font-family: "Libertinus Serif", "Source Sans 3", sans-serif;
     background-color: rgba(211, 211, 211, 0.521);
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px 35px;
     color: #12171f;
 }
@@ -59,11 +59,21 @@ body {
 }
 
 .header .container {
-
+    max-width: 1000px;
+    margin: 50px auto;
 }
 
 .header .update {
-
+    display: inline flex;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin-bottom: 1em;
+    max-width: 400px;
+    background-color: #12171f;
+    color: rgba(211, 211, 211, 0.973);
+    font-family: "Source Sans 3", "Libertinus Serif", sans-serif;
+    font-size: 18px;
 }
 
 .header .title {
@@ -75,5 +85,5 @@ body {
 }
 
 .header .button {
-    
+
 }
