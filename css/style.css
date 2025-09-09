@@ -44,22 +44,21 @@ a {
 
 .top-links .pages {
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 10px;
     gap: 30px;
     font-size: 18px;
     cursor: pointer;
-    flex-wrap: wrap;
 }
 
 /* Header */ 
 
 .header { 
-    max-width: 1000px;
+    max-width: 1000px;   /* for positioning and responsiveness */
     margin: 50px auto;
 }
 
 .header .update {
-    display: inline-flex;
     border: 1px solid #000000;
     border-radius: 30px;
     padding: 20px 30px;
@@ -74,7 +73,6 @@ a {
 
 .header .update .label {
     position: absolute;
-    display: inline-block;
     z-index: 1;  /* label stays above */
     top: -16px; 
     left: 8%;
@@ -94,9 +92,8 @@ a {
 }
 
 .header .title {
-    font-size: 70px;
-    font-weight: bold;
-    width: auto;
+    font-size: 80px;
+    font-weight: 800;    
 }
 
 .header .description {
