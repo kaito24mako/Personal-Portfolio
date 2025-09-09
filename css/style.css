@@ -21,8 +21,8 @@ body {
     font-family: "Libertinus Serif", "Source Sans 3", sans-serif;
     background-color: rgba(211, 211, 211, 0.521);
     font-size: 20px;
-    padding: 5px 35px;
     color: #12171f;
+    padding: 5px 35px;
 }
 
 a {
@@ -39,9 +39,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.top-links .logo {
+    flex-wrap: wrap;
 }
 
 .top-links .pages {
@@ -50,6 +48,7 @@ a {
     gap: 30px;
     font-size: 18px;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 
 /* Header */ 
