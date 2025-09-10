@@ -88,7 +88,7 @@ a {
     font-size: 16px;
 }
 
-.header .container-two {
+.header .greeting-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;  /* stops .button stretching */
@@ -119,35 +119,38 @@ a {
 
 /* Projects */ 
 
-.projects .container {
+.projects .project-one {
+    display: flex;
     max-width: 1000px;   
     margin: 0 auto;
 }
 
-.projects .project-one {
-
+.projects .project-one .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.projects .project-one .flex-container-one {
+.projects .project-one .top-row-container {
     display: flex;
-}
+    gap: 20px;
 
-.projects .project-one .flex-container-two {
-    display: flex;
 }
 
 .projects .project-one .title {
-
+    font-size: 60px;
 }
 
 .projects .project-one .number {
-    
+    font-size: 30px;
 }
 
-.projects .project-one .description {
-
+.projects .project-one .description,.image {
+   font-size: 25px;
 }
 
 .projects .project-one .image {
-    
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
 }
