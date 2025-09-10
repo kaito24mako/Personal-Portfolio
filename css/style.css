@@ -30,13 +30,6 @@ a {
     font-weight: 600;
 }
 
-hr.line {
-    border-top: 2px solid #12171f; 
-    margin: 90px 0;
-    max-width: 830px;
-    width: 100%;
-}   
-
 /* Top Links */ 
 
 .top-links .container {
@@ -57,7 +50,7 @@ hr.line {
 
 /* Header */ 
 
-.header { 
+.header, .projects { 
     max-width: 1000px;   /* for positioning and responsiveness */
     margin: 50px auto;
 }
@@ -159,4 +152,9 @@ hr.line {
    margin-top: 3px;
 }
 
-
+.line {
+    border-top: 2px solid #12171f; 
+    margin: 90px 0;
+    max-width: 830px;
+    width: 100%;
+}
