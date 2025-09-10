@@ -30,9 +30,9 @@ a {
     font-weight: 600;
 }
 
-.line {
-    border-top: 2px solid #12171f;
-    margin: 70px 0;
+hr.line {
+    border-top: 2px solid #12171f; 
+    margin: 90px 0;
     max-width: 830px;
     width: 100%;
 }   
@@ -98,7 +98,7 @@ a {
 .header .title {
     font-size: 80px;
     font-weight: 800;
-    font-family: "PlayFair Display";
+    font-family: "Playfair Display";
 }
 
 .header .description {
@@ -117,17 +117,18 @@ a {
     background-color: rgba(224, 206, 206, 0.281);
 }
 
-/* Projects */ 
+/* Project One */ 
 
-.projects .project-one {
+.projects .project {
     display: flex; 
     margin: 0 auto;
     max-width: 1000px;
     flex-wrap: wrap;
     overflow: hidden;
+    margin-bottom: 90px;
 }
 
-.projects .project-one .info-container {
+.projects .project .info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,23 +138,25 @@ a {
     margin-bottom: 20px;
 }
 
-.projects .project-one .top-row-container {
+.projects .project .top-row-container {
     display: flex;
     gap: 20px;
 }
 
-.projects .project-one .title {
+.projects .project .title {
     font-size: 60px;
     font-weight: 600;
-    font-family: "PlayFair Display";
+    font-family: "Playfair Display";
 }
 
-.projects .project-one .number {
+.projects .project .number {
     font-size: 30px;
 }
 
-.projects .project-one .description {
+.projects .project .description {
    font-size: 25px;
    color: #12171fe3;
    margin-top: 3px;
 }
+
+
