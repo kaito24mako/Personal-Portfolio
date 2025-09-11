@@ -1,18 +1,18 @@
 /* Reset */
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 * {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
-  list-style-type: none;
-  text-decoration: none;
+    box-sizing: inherit;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 /* General */
@@ -28,6 +28,21 @@ body {
 a {
     color: #000000;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.line {
+    border-top: 2px solid #12171f; 
+    margin: 90px 0;
+    /* same width as header and projects */
+    max-width: 1000px;
+    width: 100%;
+}
+
+.header, .projects { 
+    /* margin of auto centers elements in width of 1000px */
+    max-width: 1000px;   
+    margin: 50px auto;
 }
 
 /* Top Links */ 
@@ -45,16 +60,9 @@ a {
     padding-bottom: 10px;
     gap: 30px;
     font-size: 19px;
-    cursor: pointer;
 }
 
 /* Header */ 
-
-.header, .projects { 
-    /* margin of auto centers elements in width of 1000px */
-    max-width: 1000px;   
-    margin: 50px auto;
-}
 
 .header .update {
     border: 1px solid #000000;
@@ -89,19 +97,19 @@ a {
     gap: 15px;
 }
 
-.header .title {
+.header .greeting-container .title {
     font-size: 80px;
     font-weight: 800;
     font-family: "Playfair Display";
 }
 
-.header .description {
+.header .greeting-container .description {
     font-size: 30px;
     margin-bottom: 10px;
     color: #12171fe3;
 }
 
-.header .button {
+.header .greeting-container .button {
     cursor: pointer;
     font-size: inherit;
     font-family: inherit;
@@ -151,14 +159,6 @@ a {
    font-size: 25px;
    color: #12171fe3;
    margin-top: 3px;
-}
-
-.line {
-    border-top: 2px solid #12171f; 
-    margin: 90px 0;
-    /* same width as header and projects */
-    max-width: 1000px;
-    width: 100%;
 }
 
 /* Footer */
