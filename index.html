@@ -11,36 +11,42 @@
 </head>
 
 <body>
-
-    <div class="top-links">
+<main>
+    <!-- top navigation -->
+    <header class="top-links">
         <div class="container">
-            <div class="logo">
+            <nav class="logo">
                 <a href="./index.html">
                     <img src="./img/mountain-logo.svg" width="100px" height="100px" alt="A logo of a mountain scape">
                 </a>
-            </div>
-            <ul class="pages">
-                <li><a href="#projects-link-id">Projects</a></li>
-                <li><a href="./pages/study.html">Study</a></li>
-                <li><a href="./pages/about.html">About</a></li>
-            </ul>
+            </nav>
+            <nav>
+                <ul class="pages">
+                    <li><a href="#projects-link-id">Projects</a></li>
+                    <li><a href="./pages/study.html">Study</a></li>
+                    <li><a href="./pages/about.html">About</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="header">
+    <!-- hero section -->
+    <section class="hero">
         <div class="container">
-            <div class="update">
-                <span class="label">update</span> I am creating simple projects to hone my foundational skills
-            </div>
+            <p class="update">
+                <span>update</span>
+                I am creating simple projects to hone my foundational skills
+            </p>
             <div class="greeting-container">
-                <div class="title">
-                    Hello, I'm Kaito.<br>I'm a web developer.
-                </div>
-                <div class="description">
+                <h1 class="title">
+                    Hello, I'm Kaito.
+                    <br>I'm a web developer.
+                </h1>
+                <p class="description">
                     I'm a beginner front-end developer.
                     <br>I aspire to create programs that are clean, intuitive, and meaningful.
-                </div>
-                <button class="button">
+                </p>
+                <button>
                     <a href="./pages/about.html">About me</a>
                 </button>
             </div>
@@ -48,66 +54,67 @@
         <div id="projects-link-id">
             <hr class="line">
         </div>
-    </div>
+    </section>
     
-    <div class="projects">
-        <div class="project project-one">
+    <!-- projects section -->
+    <section class="projects">
+        <article class="project project-one">
             <div class="info-container">
-                <div class="top-row-container">
-                    <div class="title">
+                <div class="title-number-container">
+                    <h2 class="title">
                         Oishii Kaayo
-                    </div>
-                    <div class="number">
+                    </h2>
+                    <span class="number">
                         01
-                    </div>
+                    </span>
                 </div>
-                <div class="description">
+                <p class="description">
                     A sleek landing page of a self-created restaurant.
-                </div>
+                </p>
             </div>
-            <div class="image">
+            <figure class="image">
                 <img src="./img/oishii-kaayo-border.png" width="550px" height="350px"
                 alt="Image of the Oishii Kaayo landing page">
-            </div>
-        </div>
+            </figure>
+        </article>
 
-        <div class="project project-two">
+        <article class="project project-two">
             <div class="info-container">
-                <div class="top-row-container">
-                    <div class="title">
+                <div class="title-number-container">
+                    <h2 class="title">
                         The Arena
-                    </div>
-                    <div class="number">
+                    </h2>
+                    <span class="number">
                         02
-                    </div>
+                    </span>
                 </div>
-                <div class="description">
+                <p class="description">
                     A rock, paper, scissors game played via the console.
-                </div>
+                </p>
             </div>
-            <div class="image">
+            <figure class="image">
                 <img src="./img/the-arena.png" width="360px" height="350px"
                 alt="Image of the Oishii Kaayo landing page">
-            </div>
-        </div>
+            </figure>
+        </article>
         <hr class="line">
-    </div>
-    </div>
+    </section>
 
-    <div class="footer">
+    <!-- footer section -->
+    <footer>
         <div class="container">
-            <div class="name">
+            <h3 class="name">
                 Kaito<br>Watanabe
-            </div>
+            </h3>
             <ul class="links">
                 <li><a href="https://github.com/kaito24mako">GitHub</a></li>
                 <li><a href="https://www.instagram.com/kaito24mako/?igsh=Y3YwNzlheXNlbmo4&utm_source=qr#">Instagram</a></li>
                 <li><a href="https://www.facebook.com/share/1Fb1TBsxPV/?mibextid=wwXIfr">Facebook</a></li>
             </ul>
         </div>
-    </div>
-
-    <script src="./js/javascript.js"></script>
+    </footer>
+</main>
+    
+<script src="./js/javascript.js"></script>
 </body>
-
 </html>
